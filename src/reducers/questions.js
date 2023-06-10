@@ -1,4 +1,4 @@
-import { GET_QUESTIONS } from "../actions/questions"
+import { GET_QUESTIONS } from "../actions/questions";
 
 export const questionReducer = (state = {}, action) => {
     switch (action.type) {

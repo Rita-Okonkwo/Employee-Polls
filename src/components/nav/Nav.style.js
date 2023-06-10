@@ -12,7 +12,10 @@ export const useStyles = makeStyles({
   },
   avatar:{
     display: 'flex',
-    marginRight: '0.5rem'
+    columnGap: '0.5rem',
+    marginRight: '0.5rem',
+    alignItems: 'center',
+    justifyContent: 'center'
   },
   user: {
     display: 'flex',
