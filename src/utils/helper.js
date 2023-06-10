@@ -1,4 +1,4 @@
-import { _getQuestions, _getUsers } from "./_DATA"
+import { _getQuestions, _getUsers, _saveQuestionAnswer } from "./_DATA"
 
 export function formatDate (timestamp) {
     const d = new Date(timestamp)
@@ -14,5 +14,9 @@ export function formatDate (timestamp) {
       users,
       questions,
     }))
+  }
+
+  export function saveQuestionAnswer (info) {
+    return _saveQuestionAnswer(info)
   }
   

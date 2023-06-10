@@ -4,10 +4,12 @@ import { connect } from "react-redux"
 import { useState } from "react"
 import { setAuthedUser } from "../../actions/authedUser"
 import { useNavigate } from "react-router-dom"
+import { LoadingBar } from "react-redux-loading-bar"
 
 const mapStatesToProps = ({userReducer}) => {
+    const users = Object.keys(userReducer)
     return {
-     users: Object.keys(userReducer)
+     users
     } 
  }
 
@@ -27,12 +29,14 @@ const Login = (props) => {
     }
 
     return (
-        <div className={styles.rootContainer}>
+        <>
+            <LoadingBar/>
+            <div className={styles.rootContainer}>
             <Title1 className={styles.title1}>Employee Polls</Title1>
             <div className={styles.formContainers}>
                 <Label id='select-user' required ><Body1>Please select a user</Body1></Label>
                 <form method='post' onSubmit={handleSubmit}>
-                    {props.users && <div>
+                    {props.users.length !== 0 && <div>
                         <Dropdown aria-labelledby='select-user' placeholder="-" onOptionSelect={handleSelect}>
                             {
                                 props.users.map((id) => {
@@ -45,6 +49,7 @@ const Login = (props) => {
                 </form>
             </div>
         </div>
+        </>
     )
 }
 

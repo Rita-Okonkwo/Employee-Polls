@@ -1,3 +1,4 @@
+import { SET_VOTE } from "../actions/questions";
 import { GET_USERS } from "../actions/user";
 
 export const userReducer = (state = {}, action) => {
@@ -6,6 +7,17 @@ export const userReducer = (state = {}, action) => {
             return {
                 ...state,
                 ...action.users
+            }
+        case SET_VOTE:
+            return {
+                ...state,
+                [action.authedUser]: {
+                    ...state[action.authedUser],
+                    answers: {
+                        ...state[action.authedUser].answers,
+                        [action.qid]: action.answer
+                    }
+                }
             }
         default:
             return state
