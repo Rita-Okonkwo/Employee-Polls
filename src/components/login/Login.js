@@ -1,29 +1,51 @@
-import { Body1, Button, Caption1, Dropdown, Label, Title1, Option } from "@fluentui/react-components"
+import { Body1, Button, Dropdown, Label, Title1, Option } from "@fluentui/react-components"
 import { useStyles } from "./Login.style"
+import { connect } from "react-redux"
+import { useState } from "react"
+import { setAuthedUser } from "../../actions/authedUser"
+import { useNavigate } from "react-router-dom"
 
-const Login = () => {
+const mapStatesToProps = ({userReducer}) => {
+    return {
+     users: Object.keys(userReducer)
+    } 
+ }
+
+const Login = (props) => {
+    const [selectedOption, setSelectedOption] = useState(undefined)
     const styles = useStyles()
+    const navigate = useNavigate()
+
     const handleSubmit = (event) => {
         event.preventDefault()
-        console.log('submitted')
-        //TODO: redirect to home page
+        props.dispatch(setAuthedUser(selectedOption))
+        navigate("/")
     }
+
+    const handleSelect = (_event, data) => {
+        setSelectedOption(data.optionValue)
+    }
+
     return (
         <div className={styles.rootContainer}>
             <Title1 className={styles.title1}>Employee Polls</Title1>
             <div className={styles.formContainers}>
                 <Label id='select-user' required ><Body1>Please select a user</Body1></Label>
                 <form method='post' onSubmit={handleSubmit}>
-                    <div>
-                        <Dropdown aria-labelledby='select-user' placeholder="-">
-                            <Option><Caption1>Test</Caption1></Option>
+                    {props.users && <div>
+                        <Dropdown aria-labelledby='select-user' placeholder="-" onOptionSelect={handleSelect}>
+                            {
+                                props.users.map((id) => {
+                                    return <Option key={id}>{id}</Option>
+                                })
+                            }
                         </Dropdown>
-                    </div>
-                    <Button type='submit' className={styles.button}>Submit</Button>
+                    </div>}
+                    {selectedOption && <Button type='submit' className={styles.button}>Submit</Button>}
                 </form>
             </div>
         </div>
     )
 }
 
-export default Login
+export default connect(mapStatesToProps)(Login)
