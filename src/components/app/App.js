@@ -6,7 +6,7 @@ import { handleInitialData } from "../../actions/shared";
 import Dashboard from "../dashboard/Dashboard";
 import { Route, Routes } from "react-router-dom";
 import {QuestionPage} from "../question-page/QuestionPage";
-import { Leaderboard } from "../leaderboard/Leaderboard";
+import  Leaderboard from "../leaderboard/Leaderboard";
 import { New } from "../new/New";
 import { Divider } from "@fluentui/react-components";
 import Nav from "../nav/Nav";
@@ -29,10 +29,10 @@ const App = (props) => {
   return (
     <>
       <div className={styles.rootContainer}>
-      {!props.loading && <>
+      {!props.loading && <div className={styles.navStyle}>
         <Nav user={props.user}/>
         <Divider appearance="subtle"/>
-      </> }
+      </div> }
         <Routes>
           <Route path="/login" element={<Login/>}/>
           <Route path="/" exact element={<Dashboard/>} />
