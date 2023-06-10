@@ -2,18 +2,23 @@ import { Button, Caption2, Card, Subtitle2 } from "@fluentui/react-components";
 import { connect } from "react-redux";
 import { useStyles } from "./Question.style";
 import { formatDate } from "../../utils/helper";
+import { useNavigate } from "react-router-dom";
 
-const mapStatesToProps = ({questionReducer}, {id}) => {
+const mapStatesToProps = ({questionReducer, userReducer, authReducer}, {id}) => {
     const question = questionReducer[id]
+    const user = userReducer[question.author]
     return {
-        question
+        question,
+        user,
+        authReducer
     }
 }
 
 const Question = (props) => {
     const styles = useStyles()
+    const navigate = useNavigate()
     const handleClick = () => {
-        //TODO: navigate to question page
+        navigate(`/questions/${props.id}`, {state: {answered: props.answered, question: props.question, user: props.user, auth: props.authReducer}})
     }
     return (
         <div className={styles.main}>

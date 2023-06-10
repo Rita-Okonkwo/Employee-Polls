@@ -13,12 +13,16 @@ const Nav = (props) => {
         navigate('/login')
     }
 
+    const handleSelect = (_e, data) => {
+        navigate(`/${data.value}`)
+    }
+
     return (
         <div className={styles.navContainer}>
-            <TabList appearance="transparent" className={styles.tab}>
-                <Tab value="home">Home</Tab>
+            <TabList appearance="transparent" className={styles.tab} onTabSelect={handleSelect}>
+                <Tab value="">Home</Tab>
                 <Tab value="leaderboard">Leaderboard</Tab>
-                <Tab value='new'>New</Tab>
+                <Tab value='add'>New</Tab>
             </TabList>
             <div className={styles.user}>
                 <div className={styles.avatar}>

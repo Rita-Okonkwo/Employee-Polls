@@ -1,16 +1,15 @@
 import { connect } from "react-redux"
-import Nav  from "../nav/Nav"
-import { Divider } from "@fluentui/react-components"
-import Question from "../question/Question"
+import { Divider, Subtitle1 } from "@fluentui/react-components"
 import { Navigate } from "react-router-dom"
 import { QuestionList } from "../question-list/QuestionList"
+import { useStyles } from "./Dashboard.style"
 
 const mapStatesToProps = ({userReducer, questionReducer, authReducer}) => {
     const user = userReducer[authReducer]
-    const answeredQuestions = user ? Object.keys(user.answers).sort((a, b) => questionReducer[a].timestamp - questionReducer[b].timestamp) : undefined
+    const answeredQuestions = user ? Object.keys(user.answers).sort((a, b) => questionReducer[b].timestamp - questionReducer[a].timestamp) : undefined
     const unansweredQuestions = Object.keys(questionReducer).filter((question) => {
         return !answeredQuestions.includes(question)
-    }).sort((a, b) => questionReducer[a]?.timestamp - questionReducer[b]?.timestamp)
+    }).sort((a, b) => questionReducer[b]?.timestamp - questionReducer[a]?.timestamp)
     return {
         user,
         authReducer,
@@ -20,14 +19,15 @@ const mapStatesToProps = ({userReducer, questionReducer, authReducer}) => {
 }
 
 const Dashboard = (props) => {
+    const styles = useStyles()
     return (
         <>
         {props.authReducer &&  <div>
-            <Nav user={props.user}/> 
+            <Subtitle1 className={styles.title}>Answered Polls</Subtitle1>
+            <QuestionList questions={props.answeredQuestions} answered={true}/>
             <Divider appearance="subtle"/>
-            <QuestionList questions={props.answeredQuestions}/>
-            <Divider appearance="subtle"/>
-            <QuestionList questions={props.unansweredQuestions}/>
+            <Subtitle1 className={styles.title}>Unanswered Polls</Subtitle1>
+            <QuestionList questions={props.unansweredQuestions} answered={false}/>
         </div>}
         {!props.authReducer && <Navigate to="/login"/>}
         </>
