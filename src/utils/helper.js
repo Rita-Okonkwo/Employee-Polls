@@ -1,12 +1,12 @@
-import { _getQuestions, _getUsers, _saveQuestionAnswer } from "./_DATA"
+import { _getQuestions, _getUsers, _saveQuestion, _saveQuestionAnswer } from "./_DATA"
 
-export function formatDate (timestamp) {
+export const formatDate = (timestamp) => {
     const d = new Date(timestamp)
     const time = d.toLocaleTimeString('en-US')
     return time.substr(0, 5) + time.slice(-2) + ' | ' + d.toLocaleDateString()
   }
 
-  export function getInitialData () {
+  export const getInitialData = () => {
     return Promise.all([
       _getUsers(),
       _getQuestions(),
@@ -16,7 +16,11 @@ export function formatDate (timestamp) {
     }))
   }
 
-  export function saveQuestionAnswer (info) {
+  export const saveQuestionAnswer = (info) => {
     return _saveQuestionAnswer(info)
+  }
+
+  export const saveQuestion = (info) => {
+    return _saveQuestion(info)
   }
   

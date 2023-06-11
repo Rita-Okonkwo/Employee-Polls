@@ -1,15 +1,18 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { Avatar, Caption1, Subtitle2, Table, TableBody, TableCell, TableCellLayout, TableHeader, TableHeaderCell, TableRow } from '@fluentui/react-components'
 import { connect } from 'react-redux'
 import { useStyles } from './Leaderboard.style'
+import { isNil } from 'lodash'
+import { useNavigate } from 'react-router-dom'
 
-const mapStatesToProps = ({userReducer}) => {
+const mapStatesToProps = ({userReducer, authReducer}) => {
     const users = Object.keys(userReducer).sort((a, b) => {
         return (Object.keys(userReducer[b].answers).length + userReducer[b].questions.length) - (Object.keys(userReducer[a].answers).length + userReducer[a].questions.length)
     })
     return {
         users,
-        userReducer
+        userReducer,
+        authReducer
     }
 }
 
@@ -19,10 +22,18 @@ const columns = [
   { columnKey: "created", label: "Created" },
 
 ]
-const Leaderboard = ({users, userReducer}) => {
+const Leaderboard = ({users, userReducer, authReducer}) => {
   const styles = useStyles()
+  const navigate = useNavigate()
+
+  useEffect(() => {
+    if (isNil(authReducer)) {
+        navigate('/login')
+      }
+  }, [navigate, authReducer])
+
   return (
-    <Table>
+    <Table className={styles.table}>
         <TableHeader>
             <TableRow>
                 {columns.map((column) => (
