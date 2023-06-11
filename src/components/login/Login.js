@@ -21,7 +21,7 @@ const Login = (props) => {
     const handleSubmit = (event) => {
         event.preventDefault()
         props.dispatch(setAuthedUser(selectedOption))
-        navigate("/")
+        navigate(-1)
     }
 
     const handleSelect = (_event, data) => {

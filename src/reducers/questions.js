@@ -1,4 +1,4 @@
-import { GET_QUESTIONS, SET_VOTE } from "../actions/questions";
+import { GET_QUESTIONS, SAVE_QUESTION, SET_VOTE } from "../actions/questions";
 
 export const questionReducer = (state = {}, action) => {
     switch (action.type) {
@@ -18,6 +18,8 @@ export const questionReducer = (state = {}, action) => {
                     }
                 }
             }
+        case SAVE_QUESTION:
+            return state
         default:
             return state
     }

@@ -15,5 +15,9 @@ export const useStyles = makeStyles({
   cards: {
     display: 'flex',
     columnGap: '1rem'
+  },
+  title: {
+    display: 'flex',
+    rowGap: '5rem'
   }
 });

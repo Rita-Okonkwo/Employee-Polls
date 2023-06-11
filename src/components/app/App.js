@@ -5,9 +5,9 @@ import { useStyles } from "./App.style"
 import { handleInitialData } from "../../actions/shared";
 import Dashboard from "../dashboard/Dashboard";
 import { Route, Routes } from "react-router-dom";
-import {QuestionPage} from "../question-page/QuestionPage";
+import QuestionPage from "../question-page/QuestionPage";
 import  Leaderboard from "../leaderboard/Leaderboard";
-import { New } from "../new/New";
+import  New  from "../new/New";
 import { Divider } from "@fluentui/react-components";
 import Nav from "../nav/Nav";
 

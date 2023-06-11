@@ -1,4 +1,4 @@
-import { SET_VOTE } from "../actions/questions";
+import { SAVE_QUESTION, SET_VOTE } from "../actions/questions";
 import { GET_USERS } from "../actions/user";
 
 export const userReducer = (state = {}, action) => {
@@ -17,6 +17,14 @@ export const userReducer = (state = {}, action) => {
                         ...state[action.authedUser].answers,
                         [action.qid]: action.answer
                     }
+                }
+            }
+        case SAVE_QUESTION:
+            return {
+                ...state,
+                [action.author]: {
+                    ...state[action.author],
+                    questions: state[action.author].questions.concat(['00'])
                 }
             }
         default:
