@@ -18,7 +18,7 @@ const mapStatesToProps = ({userReducer, questionReducer, authReducer}) => {
     }
 }
 
-const Dashboard = (props) => {
+export const DashboardC = (props) => {
     const styles = useStyles()
     return (
         <>
@@ -34,4 +34,4 @@ const Dashboard = (props) => {
     )
 }
 
-export default connect(mapStatesToProps)(Dashboard)
+export default connect(mapStatesToProps)(DashboardC)

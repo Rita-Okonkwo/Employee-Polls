@@ -1,0 +1,260 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Nav component will render correctly 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="___1bkqhh9_0000000 f1na02jf f1xqnc6q f1aszuxk f1pui2vs fly5x3f f22iagw f1869bpl"
+      >
+        <div
+          aria-orientation="horizontal"
+          class="fui-TabList ___yosseh0_hplxo60 f22iagw f1063pyq fi64zpg flvyvdh f10pi13n f1q9h2pe f9h729m"
+          data-tabster="{\\"mover\\":{\\"cyclic\\":true,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
+          role="tablist"
+        >
+          <button
+            aria-selected="false"
+            class="fui-Tab ___1ok5per_112k432 f122n59 fwhevhj f61n433 fv1dfc8 f1q8l70w f1aa9q02 f16jpd5f f1jar5jt fyu767a fre7gi1 f1358rze fqdk4by f1rvrf73 f1k6fduh f13qh94s fi64zpg f1u07yai frn2hmy f1olsevy fk6fouc f1i3iumi f1s6fcnf f10pi13n f1p9o1ba f1sil6mw f1cxpek8 f4d9j23 f1rjii52 f5yzyt f11gcy0p fx3omr f1ng84yb f8hki3x f1d2448m f1bjia2o ffh67wi f1p7hgxw f1way5bb f9znhxp fqa318h f1vjpng2 f1c21dwh fjxutwb fophhak fmmjozx f1mfqf41 f10aiid4 fpkze5g f149wc3x fjioou7 fhw179n f10y1uxy f6aiuy0 f1kfpfnu f1dx5wco f1kmhr4c fl1ydde f1y7maxz f105swax fscdmel f1tkcw1w f1u11x8o f16cxu0 f1nwgacf f15ovonk fvje46l fchca7p f1s2r9ax f1o0nnkk fxb7rol"
+            role="tab"
+            style="--fui-Tab__indicator--offset: 0px; --fui-Tab__indicator--scale: 1;"
+            type="button"
+            value=""
+          >
+            <span
+              class="fui-Tab__content ___1spbhtg_1hd2ng5 fk6fouc fkhj508 figsok6 f1i3iumi f1p9o1ba f1sil6mw fztplxc ffczdla f9g1xly fgiv446 fwpfdsa f16hsg94"
+            >
+              Home
+            </span>
+            <span
+              class="fui-Tab__content--reserved-space ___13otpm3_vcx9bt0 fk6fouc fkhj508 fl43uef f1i3iumi f1p9o1ba f1sil6mw fztplxc ffczdla f9g1xly fgiv446 fwpfdsa f16hsg94 fd7fpy0"
+            >
+              Home
+            </span>
+          </button>
+          <button
+            aria-selected="false"
+            class="fui-Tab ___1ok5per_112k432 f122n59 fwhevhj f61n433 fv1dfc8 f1q8l70w f1aa9q02 f16jpd5f f1jar5jt fyu767a fre7gi1 f1358rze fqdk4by f1rvrf73 f1k6fduh f13qh94s fi64zpg f1u07yai frn2hmy f1olsevy fk6fouc f1i3iumi f1s6fcnf f10pi13n f1p9o1ba f1sil6mw f1cxpek8 f4d9j23 f1rjii52 f5yzyt f11gcy0p fx3omr f1ng84yb f8hki3x f1d2448m f1bjia2o ffh67wi f1p7hgxw f1way5bb f9znhxp fqa318h f1vjpng2 f1c21dwh fjxutwb fophhak fmmjozx f1mfqf41 f10aiid4 fpkze5g f149wc3x fjioou7 fhw179n f10y1uxy f6aiuy0 f1kfpfnu f1dx5wco f1kmhr4c fl1ydde f1y7maxz f105swax fscdmel f1tkcw1w f1u11x8o f16cxu0 f1nwgacf f15ovonk fvje46l fchca7p f1s2r9ax f1o0nnkk fxb7rol"
+            role="tab"
+            style="--fui-Tab__indicator--offset: 0px; --fui-Tab__indicator--scale: 1;"
+            type="button"
+            value="leaderboard"
+          >
+            <span
+              class="fui-Tab__content ___1spbhtg_1hd2ng5 fk6fouc fkhj508 figsok6 f1i3iumi f1p9o1ba f1sil6mw fztplxc ffczdla f9g1xly fgiv446 fwpfdsa f16hsg94"
+            >
+              Leaderboard
+            </span>
+            <span
+              class="fui-Tab__content--reserved-space ___13otpm3_vcx9bt0 fk6fouc fkhj508 fl43uef f1i3iumi f1p9o1ba f1sil6mw fztplxc ffczdla f9g1xly fgiv446 fwpfdsa f16hsg94 fd7fpy0"
+            >
+              Leaderboard
+            </span>
+          </button>
+          <button
+            aria-selected="false"
+            class="fui-Tab ___1ok5per_112k432 f122n59 fwhevhj f61n433 fv1dfc8 f1q8l70w f1aa9q02 f16jpd5f f1jar5jt fyu767a fre7gi1 f1358rze fqdk4by f1rvrf73 f1k6fduh f13qh94s fi64zpg f1u07yai frn2hmy f1olsevy fk6fouc f1i3iumi f1s6fcnf f10pi13n f1p9o1ba f1sil6mw f1cxpek8 f4d9j23 f1rjii52 f5yzyt f11gcy0p fx3omr f1ng84yb f8hki3x f1d2448m f1bjia2o ffh67wi f1p7hgxw f1way5bb f9znhxp fqa318h f1vjpng2 f1c21dwh fjxutwb fophhak fmmjozx f1mfqf41 f10aiid4 fpkze5g f149wc3x fjioou7 fhw179n f10y1uxy f6aiuy0 f1kfpfnu f1dx5wco f1kmhr4c fl1ydde f1y7maxz f105swax fscdmel f1tkcw1w f1u11x8o f16cxu0 f1nwgacf f15ovonk fvje46l fchca7p f1s2r9ax f1o0nnkk fxb7rol"
+            role="tab"
+            style="--fui-Tab__indicator--offset: 0px; --fui-Tab__indicator--scale: 1;"
+            type="button"
+            value="add"
+          >
+            <span
+              class="fui-Tab__content ___1spbhtg_1hd2ng5 fk6fouc fkhj508 figsok6 f1i3iumi f1p9o1ba f1sil6mw fztplxc ffczdla f9g1xly fgiv446 fwpfdsa f16hsg94"
+            >
+              New
+            </span>
+            <span
+              class="fui-Tab__content--reserved-space ___13otpm3_vcx9bt0 fk6fouc fkhj508 fl43uef f1i3iumi f1p9o1ba f1sil6mw fztplxc ffczdla f9g1xly fgiv446 fwpfdsa f16hsg94 fd7fpy0"
+            >
+              New
+            </span>
+          </button>
+        </div>
+        <div
+          class="___7jd9cx0_0000000 f22iagw f1p31tka f4d9j23"
+        >
+          <div
+            class="___1ss6o6t_0000000 f22iagw f1czfa6m f1p31tka f122n59 f4d9j23"
+          >
+            <span
+              class="fui-Avatar r81b29z"
+              id="avatar-r0"
+              role="img"
+            >
+              <img
+                alt=""
+                aria-hidden="true"
+                class="fui-Avatar__image r136dc0n ___1d63l1f_wwkuc90 f11d4kpn f18f03hv"
+                role="presentation"
+                src="undefined"
+              />
+            </span>
+            <span
+              class="fui-Text ___nzdt000_bc09y70 fk6fouc fkhj508 f1i3iumi figsok6 fpgzoln f1w7gpdv f6juhto f1mtd64y f1y7q3j9 f2jf649"
+            />
+          </div>
+          <button
+            class="fui-Button ri7kuyr ___19t63va_ymmw4k0 f1c21dwh f1p3nwhy f11589ue f1q5o8ev f1pdflbu fkfq4zb fjxutwb f1s2uweq fr80ssc f1ukrpxl fecsdlb f139oj5f fwiml72 f1h0usnq fs4ktlq f16h9ulv fx2bmrt f1fg1p5m"
+            type="button"
+          >
+            Logout
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="___1bkqhh9_0000000 f1na02jf f1xqnc6q f1aszuxk f1pui2vs fly5x3f f22iagw f1869bpl"
+    >
+      <div
+        aria-orientation="horizontal"
+        class="fui-TabList ___yosseh0_hplxo60 f22iagw f1063pyq fi64zpg flvyvdh f10pi13n f1q9h2pe f9h729m"
+        data-tabster="{\\"mover\\":{\\"cyclic\\":true,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
+        role="tablist"
+      >
+        <button
+          aria-selected="false"
+          class="fui-Tab ___1ok5per_112k432 f122n59 fwhevhj f61n433 fv1dfc8 f1q8l70w f1aa9q02 f16jpd5f f1jar5jt fyu767a fre7gi1 f1358rze fqdk4by f1rvrf73 f1k6fduh f13qh94s fi64zpg f1u07yai frn2hmy f1olsevy fk6fouc f1i3iumi f1s6fcnf f10pi13n f1p9o1ba f1sil6mw f1cxpek8 f4d9j23 f1rjii52 f5yzyt f11gcy0p fx3omr f1ng84yb f8hki3x f1d2448m f1bjia2o ffh67wi f1p7hgxw f1way5bb f9znhxp fqa318h f1vjpng2 f1c21dwh fjxutwb fophhak fmmjozx f1mfqf41 f10aiid4 fpkze5g f149wc3x fjioou7 fhw179n f10y1uxy f6aiuy0 f1kfpfnu f1dx5wco f1kmhr4c fl1ydde f1y7maxz f105swax fscdmel f1tkcw1w f1u11x8o f16cxu0 f1nwgacf f15ovonk fvje46l fchca7p f1s2r9ax f1o0nnkk fxb7rol"
+          role="tab"
+          style="--fui-Tab__indicator--offset: 0px; --fui-Tab__indicator--scale: 1;"
+          type="button"
+          value=""
+        >
+          <span
+            class="fui-Tab__content ___1spbhtg_1hd2ng5 fk6fouc fkhj508 figsok6 f1i3iumi f1p9o1ba f1sil6mw fztplxc ffczdla f9g1xly fgiv446 fwpfdsa f16hsg94"
+          >
+            Home
+          </span>
+          <span
+            class="fui-Tab__content--reserved-space ___13otpm3_vcx9bt0 fk6fouc fkhj508 fl43uef f1i3iumi f1p9o1ba f1sil6mw fztplxc ffczdla f9g1xly fgiv446 fwpfdsa f16hsg94 fd7fpy0"
+          >
+            Home
+          </span>
+        </button>
+        <button
+          aria-selected="false"
+          class="fui-Tab ___1ok5per_112k432 f122n59 fwhevhj f61n433 fv1dfc8 f1q8l70w f1aa9q02 f16jpd5f f1jar5jt fyu767a fre7gi1 f1358rze fqdk4by f1rvrf73 f1k6fduh f13qh94s fi64zpg f1u07yai frn2hmy f1olsevy fk6fouc f1i3iumi f1s6fcnf f10pi13n f1p9o1ba f1sil6mw f1cxpek8 f4d9j23 f1rjii52 f5yzyt f11gcy0p fx3omr f1ng84yb f8hki3x f1d2448m f1bjia2o ffh67wi f1p7hgxw f1way5bb f9znhxp fqa318h f1vjpng2 f1c21dwh fjxutwb fophhak fmmjozx f1mfqf41 f10aiid4 fpkze5g f149wc3x fjioou7 fhw179n f10y1uxy f6aiuy0 f1kfpfnu f1dx5wco f1kmhr4c fl1ydde f1y7maxz f105swax fscdmel f1tkcw1w f1u11x8o f16cxu0 f1nwgacf f15ovonk fvje46l fchca7p f1s2r9ax f1o0nnkk fxb7rol"
+          role="tab"
+          style="--fui-Tab__indicator--offset: 0px; --fui-Tab__indicator--scale: 1;"
+          type="button"
+          value="leaderboard"
+        >
+          <span
+            class="fui-Tab__content ___1spbhtg_1hd2ng5 fk6fouc fkhj508 figsok6 f1i3iumi f1p9o1ba f1sil6mw fztplxc ffczdla f9g1xly fgiv446 fwpfdsa f16hsg94"
+          >
+            Leaderboard
+          </span>
+          <span
+            class="fui-Tab__content--reserved-space ___13otpm3_vcx9bt0 fk6fouc fkhj508 fl43uef f1i3iumi f1p9o1ba f1sil6mw fztplxc ffczdla f9g1xly fgiv446 fwpfdsa f16hsg94 fd7fpy0"
+          >
+            Leaderboard
+          </span>
+        </button>
+        <button
+          aria-selected="false"
+          class="fui-Tab ___1ok5per_112k432 f122n59 fwhevhj f61n433 fv1dfc8 f1q8l70w f1aa9q02 f16jpd5f f1jar5jt fyu767a fre7gi1 f1358rze fqdk4by f1rvrf73 f1k6fduh f13qh94s fi64zpg f1u07yai frn2hmy f1olsevy fk6fouc f1i3iumi f1s6fcnf f10pi13n f1p9o1ba f1sil6mw f1cxpek8 f4d9j23 f1rjii52 f5yzyt f11gcy0p fx3omr f1ng84yb f8hki3x f1d2448m f1bjia2o ffh67wi f1p7hgxw f1way5bb f9znhxp fqa318h f1vjpng2 f1c21dwh fjxutwb fophhak fmmjozx f1mfqf41 f10aiid4 fpkze5g f149wc3x fjioou7 fhw179n f10y1uxy f6aiuy0 f1kfpfnu f1dx5wco f1kmhr4c fl1ydde f1y7maxz f105swax fscdmel f1tkcw1w f1u11x8o f16cxu0 f1nwgacf f15ovonk fvje46l fchca7p f1s2r9ax f1o0nnkk fxb7rol"
+          role="tab"
+          style="--fui-Tab__indicator--offset: 0px; --fui-Tab__indicator--scale: 1;"
+          type="button"
+          value="add"
+        >
+          <span
+            class="fui-Tab__content ___1spbhtg_1hd2ng5 fk6fouc fkhj508 figsok6 f1i3iumi f1p9o1ba f1sil6mw fztplxc ffczdla f9g1xly fgiv446 fwpfdsa f16hsg94"
+          >
+            New
+          </span>
+          <span
+            class="fui-Tab__content--reserved-space ___13otpm3_vcx9bt0 fk6fouc fkhj508 fl43uef f1i3iumi f1p9o1ba f1sil6mw fztplxc ffczdla f9g1xly fgiv446 fwpfdsa f16hsg94 fd7fpy0"
+          >
+            New
+          </span>
+        </button>
+      </div>
+      <div
+        class="___7jd9cx0_0000000 f22iagw f1p31tka f4d9j23"
+      >
+        <div
+          class="___1ss6o6t_0000000 f22iagw f1czfa6m f1p31tka f122n59 f4d9j23"
+        >
+          <span
+            class="fui-Avatar r81b29z"
+            id="avatar-r0"
+            role="img"
+          >
+            <img
+              alt=""
+              aria-hidden="true"
+              class="fui-Avatar__image r136dc0n ___1d63l1f_wwkuc90 f11d4kpn f18f03hv"
+              role="presentation"
+              src="undefined"
+            />
+          </span>
+          <span
+            class="fui-Text ___nzdt000_bc09y70 fk6fouc fkhj508 f1i3iumi figsok6 fpgzoln f1w7gpdv f6juhto f1mtd64y f1y7q3j9 f2jf649"
+          />
+        </div>
+        <button
+          class="fui-Button ri7kuyr ___19t63va_ymmw4k0 f1c21dwh f1p3nwhy f11589ue f1q5o8ev f1pdflbu fkfq4zb fjxutwb f1s2uweq fr80ssc f1ukrpxl fecsdlb f139oj5f fwiml72 f1h0usnq fs4ktlq f16h9ulv fx2bmrt f1fg1p5m"
+          type="button"
+        >
+          Logout
+        </button>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

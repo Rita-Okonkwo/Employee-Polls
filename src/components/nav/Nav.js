@@ -4,7 +4,7 @@ import { logOutUser } from "../../actions/authedUser"
 import { useNavigate } from "react-router-dom"
 import { connect } from "react-redux"
 
-const Nav = (props) => {
+export const NavC = (props) => {
     const styles = useStyles()
     const navigate = useNavigate()
 
@@ -34,4 +34,4 @@ const Nav = (props) => {
         </div>
     )
 }
-export default connect()(Nav)
+export default connect()(NavC)
