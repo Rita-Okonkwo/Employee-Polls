@@ -13,7 +13,7 @@ const mapStatesToProps = ({authReducer}) => {
     }
 }
 
-const New = ({dispatch, user}) => {
+export const NewC = ({dispatch, user}) => {
   const styles = useStyles()
   const navigate = useNavigate()
   const [firstInput, setFirstInput] = useState('')
@@ -55,4 +55,4 @@ const New = ({dispatch, user}) => {
   )
 }
 
-export default connect(mapStatesToProps)(New)
+export default connect(mapStatesToProps)(NewC)

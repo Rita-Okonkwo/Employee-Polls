@@ -22,7 +22,7 @@ const columns = [
   { columnKey: "created", label: "Created" },
 
 ]
-const Leaderboard = ({users, userReducer, authReducer}) => {
+export const LeaderboardC = ({users, userReducer, authReducer}) => {
   const styles = useStyles()
   const navigate = useNavigate()
 
@@ -71,4 +71,4 @@ const Leaderboard = ({users, userReducer, authReducer}) => {
   )
 }
 
-export default connect(mapStatesToProps)(Leaderboard)
+export default connect(mapStatesToProps)(LeaderboardC)

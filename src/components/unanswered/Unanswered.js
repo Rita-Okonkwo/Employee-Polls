@@ -13,10 +13,9 @@ const mapStatesToProps = ({questionReducer}, {question}) => {
   }
 }
 
-const Unanswered = ({question, user, dispatch, auth, newQuestion}) => {
+export const UnansweredC = ({question, user, dispatch, auth, newQuestion}) => {
   const styles = useStyles()
   const [answered, setAnswered] = useState(undefined)
-  console.log(newQuestion)
   const oneLength = newQuestion.optionOne.votes.length
   const twoLength = newQuestion.optionTwo.votes.length
   const onePercent = (oneLength / (oneLength + twoLength)) * 100
@@ -38,7 +37,7 @@ const Unanswered = ({question, user, dispatch, auth, newQuestion}) => {
         <Subtitle1>Would You Rather</Subtitle1>
         <div className={styles.cards}>
             <Card>
-               {answered === 'optionOne' && <Checkmark20Filled/>}
+               {answered === 'optionOne' && <Checkmark20Filled data-testid="checkmark"/>}
                 <Subtitle2>{question.optionOne.text}</Subtitle2>
                 {!answered && <Button onClick={() => handleClick('optionOne')}>Vote</Button>}
                 {answered && <Caption1>Total no of votes: {oneLength}</Caption1>}
@@ -56,4 +55,4 @@ const Unanswered = ({question, user, dispatch, auth, newQuestion}) => {
   )
 }
 
-export default connect(mapStatesToProps)(Unanswered)
+export default connect(mapStatesToProps)(UnansweredC)

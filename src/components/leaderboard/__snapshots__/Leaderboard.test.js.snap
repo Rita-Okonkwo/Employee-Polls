@@ -1,0 +1,1079 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Leaderboard component will render correctly 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <table
+        class="fui-Table ___1rmnht0_1vqdwrb fgkb47j fhovq9v f1w4nmp0 fmrv4ls fly5x3f f14m3nip f1lcaay8 flmfzl6 fsb23ky f19x0869"
+      >
+        <thead
+          class="fui-TableHeader ___1gw3ddd_19kkhse f1tp1avn"
+        >
+          <tr
+            class="fui-TableRow ___odxuiq0_1b2pdm4 f19n0e5 f1ewtqcl f1jazu75 f1xeqee6 fz36nt7 f9znhxp fqrak0z f1o2ludy f1kjnpwc fxmnebo f1witrsb f1vxd6vx fg706s2 frpde29 f1u0rzck"
+          >
+            <th
+              class="fui-TableHeaderCell ___htb40z0_parmru0 f1nbblvp f1vdfbxk f1ov4xf1 f1f5gg8d fhix6mv fha7anx f1fmzww4 fs9qmxf f187m4uq f145mzao f1uha7eq f10pi13n f15pt5es fmrv4ls"
+            >
+              <button
+                class="fui-TableHeaderCell__button ___1jcvoz7_jqij8z0 fq6nmtn f1e4lqlz f1u2r49w f1ym3bx4 f1mo0ibp fjoy568 fytdu2e f1mtd64y f1y7q3j9 f1g0x7ka fhxju0i f1qch9an f1cnd47f f1ern45e f1n71otn f1h8hb77 f1deefiw f37px4s fgusgyc f10pi13n fly5x3f f22iagw fqerorx f1l02sjl f122n59 f1ufnopg f14sijuj f1nxs5xn f1neuvcm fkjuxzh f1s6fcnf"
+                role="presentation"
+                tabindex="-1"
+                type="button"
+              >
+                Users
+              </button>
+            </th>
+            <th
+              class="fui-TableHeaderCell ___htb40z0_parmru0 f1nbblvp f1vdfbxk f1ov4xf1 f1f5gg8d fhix6mv fha7anx f1fmzww4 fs9qmxf f187m4uq f145mzao f1uha7eq f10pi13n f15pt5es fmrv4ls"
+            >
+              <button
+                class="fui-TableHeaderCell__button ___1jcvoz7_jqij8z0 fq6nmtn f1e4lqlz f1u2r49w f1ym3bx4 f1mo0ibp fjoy568 fytdu2e f1mtd64y f1y7q3j9 f1g0x7ka fhxju0i f1qch9an f1cnd47f f1ern45e f1n71otn f1h8hb77 f1deefiw f37px4s fgusgyc f10pi13n fly5x3f f22iagw fqerorx f1l02sjl f122n59 f1ufnopg f14sijuj f1nxs5xn f1neuvcm fkjuxzh f1s6fcnf"
+                role="presentation"
+                tabindex="-1"
+                type="button"
+              >
+                Answered
+              </button>
+            </th>
+            <th
+              class="fui-TableHeaderCell ___htb40z0_parmru0 f1nbblvp f1vdfbxk f1ov4xf1 f1f5gg8d fhix6mv fha7anx f1fmzww4 fs9qmxf f187m4uq f145mzao f1uha7eq f10pi13n f15pt5es fmrv4ls"
+            >
+              <button
+                class="fui-TableHeaderCell__button ___1jcvoz7_jqij8z0 fq6nmtn f1e4lqlz f1u2r49w f1ym3bx4 f1mo0ibp fjoy568 fytdu2e f1mtd64y f1y7q3j9 f1g0x7ka fhxju0i f1qch9an f1cnd47f f1ern45e f1n71otn f1h8hb77 f1deefiw f37px4s fgusgyc f10pi13n fly5x3f f22iagw fqerorx f1l02sjl f122n59 f1ufnopg f14sijuj f1nxs5xn f1neuvcm fkjuxzh f1s6fcnf"
+                role="presentation"
+                tabindex="-1"
+                type="button"
+              >
+                Created
+              </button>
+            </th>
+          </tr>
+        </thead>
+        <tbody
+          class="fui-TableBody ___1gw3ddd_19kkhse f1tp1avn"
+        >
+          <tr
+            class="fui-TableRow ___1ttuyxi_1ukckoj f19n0e5 f1ewtqcl f1jazu75 f1xeqee6 fz36nt7 f9znhxp fqrak0z f1o2ludy f1kjnpwc fxmnebo f1witrsb f1wfn5kd f1g4hkjv f15ngxrw fjbbrdp f1t94bn6 feu1g3u f1uorfem fw60kww f1vxd6vx fg706s2 frpde29 f1u0rzck f13cic75"
+          >
+            <td
+              class="fui-TableCell ___tcnysj0_68hc0k0 f1u2r49w f10pi13n f1nbblvp f1vdfbxk f1ov4xf1 f1f5gg8d fz36nt7 f9znhxp fqrak0z f1o2ludy f1kjnpwc fxmnebo f1witrsb f15pt5es fmrv4ls f1ft4266"
+            >
+              <div
+                class="fui-TableCellLayout ___1uk2feg_7csqwr0 f22iagw f122n59 fsnqrgy fylz90v fqerorx f1neuvcm fkjuxzh"
+              >
+                <span
+                  class="fui-TableCellLayout__media ___mucme80_1ps9qjd f22iagw f122n59 fe5j1ua"
+                >
+                  <span
+                    class="fui-Avatar r81b29z"
+                    id="avatar-r0"
+                    role="img"
+                  >
+                    <img
+                      alt=""
+                      aria-hidden="true"
+                      class="fui-Avatar__image r136dc0n ___1d63l1f_wwkuc90 f11d4kpn f18f03hv"
+                      role="presentation"
+                      src="https://tylermcginnis.com/would-you-rather/sarah.jpg"
+                    />
+                  </span>
+                </span>
+                <div
+                  class="fui-TableCellLayout__content ___1ccp5kb_14c66jm f22iagw f1vx9l62"
+                >
+                  <span
+                    class="fui-TableCellLayout__main"
+                  >
+                    <div
+                      class="___1u8f3j2_0000000 f22iagw f1vx9l62 f1s9ku6b fo7dy5a fbjlher f1xwuru f1wtvaye"
+                    >
+                      <span
+                        class="fui-Subtitle2 fui-Text ___ut231u0_1ul1zvu fk6fouc fod5ikn faaz57k fl43uef fpgzoln f1w7gpdv f6juhto f1mtd64y f1y7q3j9 f2jf649"
+                      >
+                        Sarah Edo
+                      </span>
+                      <span
+                        class="fui-Caption1 fui-Text ___grx76c0_k6mk1f0 fk6fouc fy9rknc fwrc4pm figsok6 fpgzoln f1w7gpdv f6juhto f1mtd64y f1y7q3j9 f2jf649"
+                      >
+                        sarahedo
+                      </span>
+                    </div>
+                  </span>
+                </div>
+              </div>
+            </td>
+            <td
+              class="fui-TableCell ___tcnysj0_68hc0k0 f1u2r49w f10pi13n f1nbblvp f1vdfbxk f1ov4xf1 f1f5gg8d fz36nt7 f9znhxp fqrak0z f1o2ludy f1kjnpwc fxmnebo f1witrsb f15pt5es fmrv4ls f1ft4266"
+            >
+              <div
+                class="fui-TableCellLayout ___1uk2feg_7csqwr0 f22iagw f122n59 fsnqrgy fylz90v fqerorx f1neuvcm fkjuxzh"
+              >
+                <div
+                  class="fui-TableCellLayout__content ___1ccp5kb_14c66jm f22iagw f1vx9l62"
+                >
+                  <span
+                    class="fui-TableCellLayout__main"
+                  >
+                    <span
+                      class="fui-Caption1 fui-Text ___grx76c0_k6mk1f0 fk6fouc fy9rknc fwrc4pm figsok6 fpgzoln f1w7gpdv f6juhto f1mtd64y f1y7q3j9 f2jf649"
+                    >
+                      4
+                    </span>
+                  </span>
+                </div>
+              </div>
+            </td>
+            <td
+              class="fui-TableCell ___tcnysj0_68hc0k0 f1u2r49w f10pi13n f1nbblvp f1vdfbxk f1ov4xf1 f1f5gg8d fz36nt7 f9znhxp fqrak0z f1o2ludy f1kjnpwc fxmnebo f1witrsb f15pt5es fmrv4ls f1ft4266"
+            >
+              <div
+                class="fui-TableCellLayout ___1uk2feg_7csqwr0 f22iagw f122n59 fsnqrgy fylz90v fqerorx f1neuvcm fkjuxzh"
+              >
+                <div
+                  class="fui-TableCellLayout__content ___1ccp5kb_14c66jm f22iagw f1vx9l62"
+                >
+                  <span
+                    class="fui-TableCellLayout__main"
+                  >
+                    <span
+                      class="fui-Caption1 fui-Text ___grx76c0_k6mk1f0 fk6fouc fy9rknc fwrc4pm figsok6 fpgzoln f1w7gpdv f6juhto f1mtd64y f1y7q3j9 f2jf649"
+                    >
+                      2
+                    </span>
+                  </span>
+                </div>
+              </div>
+            </td>
+          </tr>
+          <tr
+            class="fui-TableRow ___1ttuyxi_1ukckoj f19n0e5 f1ewtqcl f1jazu75 f1xeqee6 fz36nt7 f9znhxp fqrak0z f1o2ludy f1kjnpwc fxmnebo f1witrsb f1wfn5kd f1g4hkjv f15ngxrw fjbbrdp f1t94bn6 feu1g3u f1uorfem fw60kww f1vxd6vx fg706s2 frpde29 f1u0rzck f13cic75"
+          >
+            <td
+              class="fui-TableCell ___tcnysj0_68hc0k0 f1u2r49w f10pi13n f1nbblvp f1vdfbxk f1ov4xf1 f1f5gg8d fz36nt7 f9znhxp fqrak0z f1o2ludy f1kjnpwc fxmnebo f1witrsb f15pt5es fmrv4ls f1ft4266"
+            >
+              <div
+                class="fui-TableCellLayout ___1uk2feg_7csqwr0 f22iagw f122n59 fsnqrgy fylz90v fqerorx f1neuvcm fkjuxzh"
+              >
+                <span
+                  class="fui-TableCellLayout__media ___mucme80_1ps9qjd f22iagw f122n59 fe5j1ua"
+                >
+                  <span
+                    class="fui-Avatar r81b29z"
+                    id="avatar-r1"
+                    role="img"
+                  >
+                    <img
+                      alt=""
+                      aria-hidden="true"
+                      class="fui-Avatar__image r136dc0n ___1d63l1f_wwkuc90 f11d4kpn f18f03hv"
+                      role="presentation"
+                      src="https://tylermcginnis.com/would-you-rather/tyler.jpg"
+                    />
+                  </span>
+                </span>
+                <div
+                  class="fui-TableCellLayout__content ___1ccp5kb_14c66jm f22iagw f1vx9l62"
+                >
+                  <span
+                    class="fui-TableCellLayout__main"
+                  >
+                    <div
+                      class="___1u8f3j2_0000000 f22iagw f1vx9l62 f1s9ku6b fo7dy5a fbjlher f1xwuru f1wtvaye"
+                    >
+                      <span
+                        class="fui-Subtitle2 fui-Text ___ut231u0_1ul1zvu fk6fouc fod5ikn faaz57k fl43uef fpgzoln f1w7gpdv f6juhto f1mtd64y f1y7q3j9 f2jf649"
+                      >
+                        Tyler McGinnis
+                      </span>
+                      <span
+                        class="fui-Caption1 fui-Text ___grx76c0_k6mk1f0 fk6fouc fy9rknc fwrc4pm figsok6 fpgzoln f1w7gpdv f6juhto f1mtd64y f1y7q3j9 f2jf649"
+                      >
+                        tylermcginnis
+                      </span>
+                    </div>
+                  </span>
+                </div>
+              </div>
+            </td>
+            <td
+              class="fui-TableCell ___tcnysj0_68hc0k0 f1u2r49w f10pi13n f1nbblvp f1vdfbxk f1ov4xf1 f1f5gg8d fz36nt7 f9znhxp fqrak0z f1o2ludy f1kjnpwc fxmnebo f1witrsb f15pt5es fmrv4ls f1ft4266"
+            >
+              <div
+                class="fui-TableCellLayout ___1uk2feg_7csqwr0 f22iagw f122n59 fsnqrgy fylz90v fqerorx f1neuvcm fkjuxzh"
+              >
+                <div
+                  class="fui-TableCellLayout__content ___1ccp5kb_14c66jm f22iagw f1vx9l62"
+                >
+                  <span
+                    class="fui-TableCellLayout__main"
+                  >
+                    <span
+                      class="fui-Caption1 fui-Text ___grx76c0_k6mk1f0 fk6fouc fy9rknc fwrc4pm figsok6 fpgzoln f1w7gpdv f6juhto f1mtd64y f1y7q3j9 f2jf649"
+                    >
+                      2
+                    </span>
+                  </span>
+                </div>
+              </div>
+            </td>
+            <td
+              class="fui-TableCell ___tcnysj0_68hc0k0 f1u2r49w f10pi13n f1nbblvp f1vdfbxk f1ov4xf1 f1f5gg8d fz36nt7 f9znhxp fqrak0z f1o2ludy f1kjnpwc fxmnebo f1witrsb f15pt5es fmrv4ls f1ft4266"
+            >
+              <div
+                class="fui-TableCellLayout ___1uk2feg_7csqwr0 f22iagw f122n59 fsnqrgy fylz90v fqerorx f1neuvcm fkjuxzh"
+              >
+                <div
+                  class="fui-TableCellLayout__content ___1ccp5kb_14c66jm f22iagw f1vx9l62"
+                >
+                  <span
+                    class="fui-TableCellLayout__main"
+                  >
+                    <span
+                      class="fui-Caption1 fui-Text ___grx76c0_k6mk1f0 fk6fouc fy9rknc fwrc4pm figsok6 fpgzoln f1w7gpdv f6juhto f1mtd64y f1y7q3j9 f2jf649"
+                    >
+                      2
+                    </span>
+                  </span>
+                </div>
+              </div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>,
+  "container": <div>
+    <table
+      class="fui-Table ___1rmnht0_1vqdwrb fgkb47j fhovq9v f1w4nmp0 fmrv4ls fly5x3f f14m3nip f1lcaay8 flmfzl6 fsb23ky f19x0869"
+    >
+      <thead
+        class="fui-TableHeader ___1gw3ddd_19kkhse f1tp1avn"
+      >
+        <tr
+          class="fui-TableRow ___odxuiq0_1b2pdm4 f19n0e5 f1ewtqcl f1jazu75 f1xeqee6 fz36nt7 f9znhxp fqrak0z f1o2ludy f1kjnpwc fxmnebo f1witrsb f1vxd6vx fg706s2 frpde29 f1u0rzck"
+        >
+          <th
+            class="fui-TableHeaderCell ___htb40z0_parmru0 f1nbblvp f1vdfbxk f1ov4xf1 f1f5gg8d fhix6mv fha7anx f1fmzww4 fs9qmxf f187m4uq f145mzao f1uha7eq f10pi13n f15pt5es fmrv4ls"
+          >
+            <button
+              class="fui-TableHeaderCell__button ___1jcvoz7_jqij8z0 fq6nmtn f1e4lqlz f1u2r49w f1ym3bx4 f1mo0ibp fjoy568 fytdu2e f1mtd64y f1y7q3j9 f1g0x7ka fhxju0i f1qch9an f1cnd47f f1ern45e f1n71otn f1h8hb77 f1deefiw f37px4s fgusgyc f10pi13n fly5x3f f22iagw fqerorx f1l02sjl f122n59 f1ufnopg f14sijuj f1nxs5xn f1neuvcm fkjuxzh f1s6fcnf"
+              role="presentation"
+              tabindex="-1"
+              type="button"
+            >
+              Users
+            </button>
+          </th>
+          <th
+            class="fui-TableHeaderCell ___htb40z0_parmru0 f1nbblvp f1vdfbxk f1ov4xf1 f1f5gg8d fhix6mv fha7anx f1fmzww4 fs9qmxf f187m4uq f145mzao f1uha7eq f10pi13n f15pt5es fmrv4ls"
+          >
+            <button
+              class="fui-TableHeaderCell__button ___1jcvoz7_jqij8z0 fq6nmtn f1e4lqlz f1u2r49w f1ym3bx4 f1mo0ibp fjoy568 fytdu2e f1mtd64y f1y7q3j9 f1g0x7ka fhxju0i f1qch9an f1cnd47f f1ern45e f1n71otn f1h8hb77 f1deefiw f37px4s fgusgyc f10pi13n fly5x3f f22iagw fqerorx f1l02sjl f122n59 f1ufnopg f14sijuj f1nxs5xn f1neuvcm fkjuxzh f1s6fcnf"
+              role="presentation"
+              tabindex="-1"
+              type="button"
+            >
+              Answered
+            </button>
+          </th>
+          <th
+            class="fui-TableHeaderCell ___htb40z0_parmru0 f1nbblvp f1vdfbxk f1ov4xf1 f1f5gg8d fhix6mv fha7anx f1fmzww4 fs9qmxf f187m4uq f145mzao f1uha7eq f10pi13n f15pt5es fmrv4ls"
+          >
+            <button
+              class="fui-TableHeaderCell__button ___1jcvoz7_jqij8z0 fq6nmtn f1e4lqlz f1u2r49w f1ym3bx4 f1mo0ibp fjoy568 fytdu2e f1mtd64y f1y7q3j9 f1g0x7ka fhxju0i f1qch9an f1cnd47f f1ern45e f1n71otn f1h8hb77 f1deefiw f37px4s fgusgyc f10pi13n fly5x3f f22iagw fqerorx f1l02sjl f122n59 f1ufnopg f14sijuj f1nxs5xn f1neuvcm fkjuxzh f1s6fcnf"
+              role="presentation"
+              tabindex="-1"
+              type="button"
+            >
+              Created
+            </button>
+          </th>
+        </tr>
+      </thead>
+      <tbody
+        class="fui-TableBody ___1gw3ddd_19kkhse f1tp1avn"
+      >
+        <tr
+          class="fui-TableRow ___1ttuyxi_1ukckoj f19n0e5 f1ewtqcl f1jazu75 f1xeqee6 fz36nt7 f9znhxp fqrak0z f1o2ludy f1kjnpwc fxmnebo f1witrsb f1wfn5kd f1g4hkjv f15ngxrw fjbbrdp f1t94bn6 feu1g3u f1uorfem fw60kww f1vxd6vx fg706s2 frpde29 f1u0rzck f13cic75"
+        >
+          <td
+            class="fui-TableCell ___tcnysj0_68hc0k0 f1u2r49w f10pi13n f1nbblvp f1vdfbxk f1ov4xf1 f1f5gg8d fz36nt7 f9znhxp fqrak0z f1o2ludy f1kjnpwc fxmnebo f1witrsb f15pt5es fmrv4ls f1ft4266"
+          >
+            <div
+              class="fui-TableCellLayout ___1uk2feg_7csqwr0 f22iagw f122n59 fsnqrgy fylz90v fqerorx f1neuvcm fkjuxzh"
+            >
+              <span
+                class="fui-TableCellLayout__media ___mucme80_1ps9qjd f22iagw f122n59 fe5j1ua"
+              >
+                <span
+                  class="fui-Avatar r81b29z"
+                  id="avatar-r0"
+                  role="img"
+                >
+                  <img
+                    alt=""
+                    aria-hidden="true"
+                    class="fui-Avatar__image r136dc0n ___1d63l1f_wwkuc90 f11d4kpn f18f03hv"
+                    role="presentation"
+                    src="https://tylermcginnis.com/would-you-rather/sarah.jpg"
+                  />
+                </span>
+              </span>
+              <div
+                class="fui-TableCellLayout__content ___1ccp5kb_14c66jm f22iagw f1vx9l62"
+              >
+                <span
+                  class="fui-TableCellLayout__main"
+                >
+                  <div
+                    class="___1u8f3j2_0000000 f22iagw f1vx9l62 f1s9ku6b fo7dy5a fbjlher f1xwuru f1wtvaye"
+                  >
+                    <span
+                      class="fui-Subtitle2 fui-Text ___ut231u0_1ul1zvu fk6fouc fod5ikn faaz57k fl43uef fpgzoln f1w7gpdv f6juhto f1mtd64y f1y7q3j9 f2jf649"
+                    >
+                      Sarah Edo
+                    </span>
+                    <span
+                      class="fui-Caption1 fui-Text ___grx76c0_k6mk1f0 fk6fouc fy9rknc fwrc4pm figsok6 fpgzoln f1w7gpdv f6juhto f1mtd64y f1y7q3j9 f2jf649"
+                    >
+                      sarahedo
+                    </span>
+                  </div>
+                </span>
+              </div>
+            </div>
+          </td>
+          <td
+            class="fui-TableCell ___tcnysj0_68hc0k0 f1u2r49w f10pi13n f1nbblvp f1vdfbxk f1ov4xf1 f1f5gg8d fz36nt7 f9znhxp fqrak0z f1o2ludy f1kjnpwc fxmnebo f1witrsb f15pt5es fmrv4ls f1ft4266"
+          >
+            <div
+              class="fui-TableCellLayout ___1uk2feg_7csqwr0 f22iagw f122n59 fsnqrgy fylz90v fqerorx f1neuvcm fkjuxzh"
+            >
+              <div
+                class="fui-TableCellLayout__content ___1ccp5kb_14c66jm f22iagw f1vx9l62"
+              >
+                <span
+                  class="fui-TableCellLayout__main"
+                >
+                  <span
+                    class="fui-Caption1 fui-Text ___grx76c0_k6mk1f0 fk6fouc fy9rknc fwrc4pm figsok6 fpgzoln f1w7gpdv f6juhto f1mtd64y f1y7q3j9 f2jf649"
+                  >
+                    4
+                  </span>
+                </span>
+              </div>
+            </div>
+          </td>
+          <td
+            class="fui-TableCell ___tcnysj0_68hc0k0 f1u2r49w f10pi13n f1nbblvp f1vdfbxk f1ov4xf1 f1f5gg8d fz36nt7 f9znhxp fqrak0z f1o2ludy f1kjnpwc fxmnebo f1witrsb f15pt5es fmrv4ls f1ft4266"
+          >
+            <div
+              class="fui-TableCellLayout ___1uk2feg_7csqwr0 f22iagw f122n59 fsnqrgy fylz90v fqerorx f1neuvcm fkjuxzh"
+            >
+              <div
+                class="fui-TableCellLayout__content ___1ccp5kb_14c66jm f22iagw f1vx9l62"
+              >
+                <span
+                  class="fui-TableCellLayout__main"
+                >
+                  <span
+                    class="fui-Caption1 fui-Text ___grx76c0_k6mk1f0 fk6fouc fy9rknc fwrc4pm figsok6 fpgzoln f1w7gpdv f6juhto f1mtd64y f1y7q3j9 f2jf649"
+                  >
+                    2
+                  </span>
+                </span>
+              </div>
+            </div>
+          </td>
+        </tr>
+        <tr
+          class="fui-TableRow ___1ttuyxi_1ukckoj f19n0e5 f1ewtqcl f1jazu75 f1xeqee6 fz36nt7 f9znhxp fqrak0z f1o2ludy f1kjnpwc fxmnebo f1witrsb f1wfn5kd f1g4hkjv f15ngxrw fjbbrdp f1t94bn6 feu1g3u f1uorfem fw60kww f1vxd6vx fg706s2 frpde29 f1u0rzck f13cic75"
+        >
+          <td
+            class="fui-TableCell ___tcnysj0_68hc0k0 f1u2r49w f10pi13n f1nbblvp f1vdfbxk f1ov4xf1 f1f5gg8d fz36nt7 f9znhxp fqrak0z f1o2ludy f1kjnpwc fxmnebo f1witrsb f15pt5es fmrv4ls f1ft4266"
+          >
+            <div
+              class="fui-TableCellLayout ___1uk2feg_7csqwr0 f22iagw f122n59 fsnqrgy fylz90v fqerorx f1neuvcm fkjuxzh"
+            >
+              <span
+                class="fui-TableCellLayout__media ___mucme80_1ps9qjd f22iagw f122n59 fe5j1ua"
+              >
+                <span
+                  class="fui-Avatar r81b29z"
+                  id="avatar-r1"
+                  role="img"
+                >
+                  <img
+                    alt=""
+                    aria-hidden="true"
+                    class="fui-Avatar__image r136dc0n ___1d63l1f_wwkuc90 f11d4kpn f18f03hv"
+                    role="presentation"
+                    src="https://tylermcginnis.com/would-you-rather/tyler.jpg"
+                  />
+                </span>
+              </span>
+              <div
+                class="fui-TableCellLayout__content ___1ccp5kb_14c66jm f22iagw f1vx9l62"
+              >
+                <span
+                  class="fui-TableCellLayout__main"
+                >
+                  <div
+                    class="___1u8f3j2_0000000 f22iagw f1vx9l62 f1s9ku6b fo7dy5a fbjlher f1xwuru f1wtvaye"
+                  >
+                    <span
+                      class="fui-Subtitle2 fui-Text ___ut231u0_1ul1zvu fk6fouc fod5ikn faaz57k fl43uef fpgzoln f1w7gpdv f6juhto f1mtd64y f1y7q3j9 f2jf649"
+                    >
+                      Tyler McGinnis
+                    </span>
+                    <span
+                      class="fui-Caption1 fui-Text ___grx76c0_k6mk1f0 fk6fouc fy9rknc fwrc4pm figsok6 fpgzoln f1w7gpdv f6juhto f1mtd64y f1y7q3j9 f2jf649"
+                    >
+                      tylermcginnis
+                    </span>
+                  </div>
+                </span>
+              </div>
+            </div>
+          </td>
+          <td
+            class="fui-TableCell ___tcnysj0_68hc0k0 f1u2r49w f10pi13n f1nbblvp f1vdfbxk f1ov4xf1 f1f5gg8d fz36nt7 f9znhxp fqrak0z f1o2ludy f1kjnpwc fxmnebo f1witrsb f15pt5es fmrv4ls f1ft4266"
+          >
+            <div
+              class="fui-TableCellLayout ___1uk2feg_7csqwr0 f22iagw f122n59 fsnqrgy fylz90v fqerorx f1neuvcm fkjuxzh"
+            >
+              <div
+                class="fui-TableCellLayout__content ___1ccp5kb_14c66jm f22iagw f1vx9l62"
+              >
+                <span
+                  class="fui-TableCellLayout__main"
+                >
+                  <span
+                    class="fui-Caption1 fui-Text ___grx76c0_k6mk1f0 fk6fouc fy9rknc fwrc4pm figsok6 fpgzoln f1w7gpdv f6juhto f1mtd64y f1y7q3j9 f2jf649"
+                  >
+                    2
+                  </span>
+                </span>
+              </div>
+            </div>
+          </td>
+          <td
+            class="fui-TableCell ___tcnysj0_68hc0k0 f1u2r49w f10pi13n f1nbblvp f1vdfbxk f1ov4xf1 f1f5gg8d fz36nt7 f9znhxp fqrak0z f1o2ludy f1kjnpwc fxmnebo f1witrsb f15pt5es fmrv4ls f1ft4266"
+          >
+            <div
+              class="fui-TableCellLayout ___1uk2feg_7csqwr0 f22iagw f122n59 fsnqrgy fylz90v fqerorx f1neuvcm fkjuxzh"
+            >
+              <div
+                class="fui-TableCellLayout__content ___1ccp5kb_14c66jm f22iagw f1vx9l62"
+              >
+                <span
+                  class="fui-TableCellLayout__main"
+                >
+                  <span
+                    class="fui-Caption1 fui-Text ___grx76c0_k6mk1f0 fk6fouc fy9rknc fwrc4pm figsok6 fpgzoln f1w7gpdv f6juhto f1mtd64y f1y7q3j9 f2jf649"
+                  >
+                    2
+                  </span>
+                </span>
+              </div>
+            </div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Nav component will render correctly 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <table
+        class="fui-Table ___1rmnht0_1vqdwrb fgkb47j fhovq9v f1w4nmp0 fmrv4ls fly5x3f f14m3nip f1lcaay8 flmfzl6 fsb23ky f19x0869"
+      >
+        <thead
+          class="fui-TableHeader ___1gw3ddd_19kkhse f1tp1avn"
+        >
+          <tr
+            class="fui-TableRow ___odxuiq0_1b2pdm4 f19n0e5 f1ewtqcl f1jazu75 f1xeqee6 fz36nt7 f9znhxp fqrak0z f1o2ludy f1kjnpwc fxmnebo f1witrsb f1vxd6vx fg706s2 frpde29 f1u0rzck"
+          >
+            <th
+              class="fui-TableHeaderCell ___htb40z0_parmru0 f1nbblvp f1vdfbxk f1ov4xf1 f1f5gg8d fhix6mv fha7anx f1fmzww4 fs9qmxf f187m4uq f145mzao f1uha7eq f10pi13n f15pt5es fmrv4ls"
+            >
+              <button
+                class="fui-TableHeaderCell__button ___1jcvoz7_jqij8z0 fq6nmtn f1e4lqlz f1u2r49w f1ym3bx4 f1mo0ibp fjoy568 fytdu2e f1mtd64y f1y7q3j9 f1g0x7ka fhxju0i f1qch9an f1cnd47f f1ern45e f1n71otn f1h8hb77 f1deefiw f37px4s fgusgyc f10pi13n fly5x3f f22iagw fqerorx f1l02sjl f122n59 f1ufnopg f14sijuj f1nxs5xn f1neuvcm fkjuxzh f1s6fcnf"
+                role="presentation"
+                tabindex="-1"
+                type="button"
+              >
+                Users
+              </button>
+            </th>
+            <th
+              class="fui-TableHeaderCell ___htb40z0_parmru0 f1nbblvp f1vdfbxk f1ov4xf1 f1f5gg8d fhix6mv fha7anx f1fmzww4 fs9qmxf f187m4uq f145mzao f1uha7eq f10pi13n f15pt5es fmrv4ls"
+            >
+              <button
+                class="fui-TableHeaderCell__button ___1jcvoz7_jqij8z0 fq6nmtn f1e4lqlz f1u2r49w f1ym3bx4 f1mo0ibp fjoy568 fytdu2e f1mtd64y f1y7q3j9 f1g0x7ka fhxju0i f1qch9an f1cnd47f f1ern45e f1n71otn f1h8hb77 f1deefiw f37px4s fgusgyc f10pi13n fly5x3f f22iagw fqerorx f1l02sjl f122n59 f1ufnopg f14sijuj f1nxs5xn f1neuvcm fkjuxzh f1s6fcnf"
+                role="presentation"
+                tabindex="-1"
+                type="button"
+              >
+                Answered
+              </button>
+            </th>
+            <th
+              class="fui-TableHeaderCell ___htb40z0_parmru0 f1nbblvp f1vdfbxk f1ov4xf1 f1f5gg8d fhix6mv fha7anx f1fmzww4 fs9qmxf f187m4uq f145mzao f1uha7eq f10pi13n f15pt5es fmrv4ls"
+            >
+              <button
+                class="fui-TableHeaderCell__button ___1jcvoz7_jqij8z0 fq6nmtn f1e4lqlz f1u2r49w f1ym3bx4 f1mo0ibp fjoy568 fytdu2e f1mtd64y f1y7q3j9 f1g0x7ka fhxju0i f1qch9an f1cnd47f f1ern45e f1n71otn f1h8hb77 f1deefiw f37px4s fgusgyc f10pi13n fly5x3f f22iagw fqerorx f1l02sjl f122n59 f1ufnopg f14sijuj f1nxs5xn f1neuvcm fkjuxzh f1s6fcnf"
+                role="presentation"
+                tabindex="-1"
+                type="button"
+              >
+                Created
+              </button>
+            </th>
+          </tr>
+        </thead>
+        <tbody
+          class="fui-TableBody ___1gw3ddd_19kkhse f1tp1avn"
+        >
+          <tr
+            class="fui-TableRow ___1ttuyxi_1ukckoj f19n0e5 f1ewtqcl f1jazu75 f1xeqee6 fz36nt7 f9znhxp fqrak0z f1o2ludy f1kjnpwc fxmnebo f1witrsb f1wfn5kd f1g4hkjv f15ngxrw fjbbrdp f1t94bn6 feu1g3u f1uorfem fw60kww f1vxd6vx fg706s2 frpde29 f1u0rzck f13cic75"
+          >
+            <td
+              class="fui-TableCell ___tcnysj0_68hc0k0 f1u2r49w f10pi13n f1nbblvp f1vdfbxk f1ov4xf1 f1f5gg8d fz36nt7 f9znhxp fqrak0z f1o2ludy f1kjnpwc fxmnebo f1witrsb f15pt5es fmrv4ls f1ft4266"
+            >
+              <div
+                class="fui-TableCellLayout ___1uk2feg_7csqwr0 f22iagw f122n59 fsnqrgy fylz90v fqerorx f1neuvcm fkjuxzh"
+              >
+                <span
+                  class="fui-TableCellLayout__media ___mucme80_1ps9qjd f22iagw f122n59 fe5j1ua"
+                >
+                  <span
+                    class="fui-Avatar r81b29z"
+                    id="avatar-r0"
+                    role="img"
+                  >
+                    <img
+                      alt=""
+                      aria-hidden="true"
+                      class="fui-Avatar__image r136dc0n ___1d63l1f_wwkuc90 f11d4kpn f18f03hv"
+                      role="presentation"
+                      src="https://tylermcginnis.com/would-you-rather/sarah.jpg"
+                    />
+                  </span>
+                </span>
+                <div
+                  class="fui-TableCellLayout__content ___1ccp5kb_14c66jm f22iagw f1vx9l62"
+                >
+                  <span
+                    class="fui-TableCellLayout__main"
+                  >
+                    <div
+                      class="___1u8f3j2_0000000 f22iagw f1vx9l62 f1s9ku6b fo7dy5a fbjlher f1xwuru f1wtvaye"
+                    >
+                      <span
+                        class="fui-Subtitle2 fui-Text ___ut231u0_1ul1zvu fk6fouc fod5ikn faaz57k fl43uef fpgzoln f1w7gpdv f6juhto f1mtd64y f1y7q3j9 f2jf649"
+                      >
+                        Sarah Edo
+                      </span>
+                      <span
+                        class="fui-Caption1 fui-Text ___grx76c0_k6mk1f0 fk6fouc fy9rknc fwrc4pm figsok6 fpgzoln f1w7gpdv f6juhto f1mtd64y f1y7q3j9 f2jf649"
+                      >
+                        sarahedo
+                      </span>
+                    </div>
+                  </span>
+                </div>
+              </div>
+            </td>
+            <td
+              class="fui-TableCell ___tcnysj0_68hc0k0 f1u2r49w f10pi13n f1nbblvp f1vdfbxk f1ov4xf1 f1f5gg8d fz36nt7 f9znhxp fqrak0z f1o2ludy f1kjnpwc fxmnebo f1witrsb f15pt5es fmrv4ls f1ft4266"
+            >
+              <div
+                class="fui-TableCellLayout ___1uk2feg_7csqwr0 f22iagw f122n59 fsnqrgy fylz90v fqerorx f1neuvcm fkjuxzh"
+              >
+                <div
+                  class="fui-TableCellLayout__content ___1ccp5kb_14c66jm f22iagw f1vx9l62"
+                >
+                  <span
+                    class="fui-TableCellLayout__main"
+                  >
+                    <span
+                      class="fui-Caption1 fui-Text ___grx76c0_k6mk1f0 fk6fouc fy9rknc fwrc4pm figsok6 fpgzoln f1w7gpdv f6juhto f1mtd64y f1y7q3j9 f2jf649"
+                    >
+                      4
+                    </span>
+                  </span>
+                </div>
+              </div>
+            </td>
+            <td
+              class="fui-TableCell ___tcnysj0_68hc0k0 f1u2r49w f10pi13n f1nbblvp f1vdfbxk f1ov4xf1 f1f5gg8d fz36nt7 f9znhxp fqrak0z f1o2ludy f1kjnpwc fxmnebo f1witrsb f15pt5es fmrv4ls f1ft4266"
+            >
+              <div
+                class="fui-TableCellLayout ___1uk2feg_7csqwr0 f22iagw f122n59 fsnqrgy fylz90v fqerorx f1neuvcm fkjuxzh"
+              >
+                <div
+                  class="fui-TableCellLayout__content ___1ccp5kb_14c66jm f22iagw f1vx9l62"
+                >
+                  <span
+                    class="fui-TableCellLayout__main"
+                  >
+                    <span
+                      class="fui-Caption1 fui-Text ___grx76c0_k6mk1f0 fk6fouc fy9rknc fwrc4pm figsok6 fpgzoln f1w7gpdv f6juhto f1mtd64y f1y7q3j9 f2jf649"
+                    >
+                      2
+                    </span>
+                  </span>
+                </div>
+              </div>
+            </td>
+          </tr>
+          <tr
+            class="fui-TableRow ___1ttuyxi_1ukckoj f19n0e5 f1ewtqcl f1jazu75 f1xeqee6 fz36nt7 f9znhxp fqrak0z f1o2ludy f1kjnpwc fxmnebo f1witrsb f1wfn5kd f1g4hkjv f15ngxrw fjbbrdp f1t94bn6 feu1g3u f1uorfem fw60kww f1vxd6vx fg706s2 frpde29 f1u0rzck f13cic75"
+          >
+            <td
+              class="fui-TableCell ___tcnysj0_68hc0k0 f1u2r49w f10pi13n f1nbblvp f1vdfbxk f1ov4xf1 f1f5gg8d fz36nt7 f9znhxp fqrak0z f1o2ludy f1kjnpwc fxmnebo f1witrsb f15pt5es fmrv4ls f1ft4266"
+            >
+              <div
+                class="fui-TableCellLayout ___1uk2feg_7csqwr0 f22iagw f122n59 fsnqrgy fylz90v fqerorx f1neuvcm fkjuxzh"
+              >
+                <span
+                  class="fui-TableCellLayout__media ___mucme80_1ps9qjd f22iagw f122n59 fe5j1ua"
+                >
+                  <span
+                    class="fui-Avatar r81b29z"
+                    id="avatar-r1"
+                    role="img"
+                  >
+                    <img
+                      alt=""
+                      aria-hidden="true"
+                      class="fui-Avatar__image r136dc0n ___1d63l1f_wwkuc90 f11d4kpn f18f03hv"
+                      role="presentation"
+                      src="https://tylermcginnis.com/would-you-rather/tyler.jpg"
+                    />
+                  </span>
+                </span>
+                <div
+                  class="fui-TableCellLayout__content ___1ccp5kb_14c66jm f22iagw f1vx9l62"
+                >
+                  <span
+                    class="fui-TableCellLayout__main"
+                  >
+                    <div
+                      class="___1u8f3j2_0000000 f22iagw f1vx9l62 f1s9ku6b fo7dy5a fbjlher f1xwuru f1wtvaye"
+                    >
+                      <span
+                        class="fui-Subtitle2 fui-Text ___ut231u0_1ul1zvu fk6fouc fod5ikn faaz57k fl43uef fpgzoln f1w7gpdv f6juhto f1mtd64y f1y7q3j9 f2jf649"
+                      >
+                        Tyler McGinnis
+                      </span>
+                      <span
+                        class="fui-Caption1 fui-Text ___grx76c0_k6mk1f0 fk6fouc fy9rknc fwrc4pm figsok6 fpgzoln f1w7gpdv f6juhto f1mtd64y f1y7q3j9 f2jf649"
+                      >
+                        tylermcginnis
+                      </span>
+                    </div>
+                  </span>
+                </div>
+              </div>
+            </td>
+            <td
+              class="fui-TableCell ___tcnysj0_68hc0k0 f1u2r49w f10pi13n f1nbblvp f1vdfbxk f1ov4xf1 f1f5gg8d fz36nt7 f9znhxp fqrak0z f1o2ludy f1kjnpwc fxmnebo f1witrsb f15pt5es fmrv4ls f1ft4266"
+            >
+              <div
+                class="fui-TableCellLayout ___1uk2feg_7csqwr0 f22iagw f122n59 fsnqrgy fylz90v fqerorx f1neuvcm fkjuxzh"
+              >
+                <div
+                  class="fui-TableCellLayout__content ___1ccp5kb_14c66jm f22iagw f1vx9l62"
+                >
+                  <span
+                    class="fui-TableCellLayout__main"
+                  >
+                    <span
+                      class="fui-Caption1 fui-Text ___grx76c0_k6mk1f0 fk6fouc fy9rknc fwrc4pm figsok6 fpgzoln f1w7gpdv f6juhto f1mtd64y f1y7q3j9 f2jf649"
+                    >
+                      2
+                    </span>
+                  </span>
+                </div>
+              </div>
+            </td>
+            <td
+              class="fui-TableCell ___tcnysj0_68hc0k0 f1u2r49w f10pi13n f1nbblvp f1vdfbxk f1ov4xf1 f1f5gg8d fz36nt7 f9znhxp fqrak0z f1o2ludy f1kjnpwc fxmnebo f1witrsb f15pt5es fmrv4ls f1ft4266"
+            >
+              <div
+                class="fui-TableCellLayout ___1uk2feg_7csqwr0 f22iagw f122n59 fsnqrgy fylz90v fqerorx f1neuvcm fkjuxzh"
+              >
+                <div
+                  class="fui-TableCellLayout__content ___1ccp5kb_14c66jm f22iagw f1vx9l62"
+                >
+                  <span
+                    class="fui-TableCellLayout__main"
+                  >
+                    <span
+                      class="fui-Caption1 fui-Text ___grx76c0_k6mk1f0 fk6fouc fy9rknc fwrc4pm figsok6 fpgzoln f1w7gpdv f6juhto f1mtd64y f1y7q3j9 f2jf649"
+                    >
+                      2
+                    </span>
+                  </span>
+                </div>
+              </div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>,
+  "container": <div>
+    <table
+      class="fui-Table ___1rmnht0_1vqdwrb fgkb47j fhovq9v f1w4nmp0 fmrv4ls fly5x3f f14m3nip f1lcaay8 flmfzl6 fsb23ky f19x0869"
+    >
+      <thead
+        class="fui-TableHeader ___1gw3ddd_19kkhse f1tp1avn"
+      >
+        <tr
+          class="fui-TableRow ___odxuiq0_1b2pdm4 f19n0e5 f1ewtqcl f1jazu75 f1xeqee6 fz36nt7 f9znhxp fqrak0z f1o2ludy f1kjnpwc fxmnebo f1witrsb f1vxd6vx fg706s2 frpde29 f1u0rzck"
+        >
+          <th
+            class="fui-TableHeaderCell ___htb40z0_parmru0 f1nbblvp f1vdfbxk f1ov4xf1 f1f5gg8d fhix6mv fha7anx f1fmzww4 fs9qmxf f187m4uq f145mzao f1uha7eq f10pi13n f15pt5es fmrv4ls"
+          >
+            <button
+              class="fui-TableHeaderCell__button ___1jcvoz7_jqij8z0 fq6nmtn f1e4lqlz f1u2r49w f1ym3bx4 f1mo0ibp fjoy568 fytdu2e f1mtd64y f1y7q3j9 f1g0x7ka fhxju0i f1qch9an f1cnd47f f1ern45e f1n71otn f1h8hb77 f1deefiw f37px4s fgusgyc f10pi13n fly5x3f f22iagw fqerorx f1l02sjl f122n59 f1ufnopg f14sijuj f1nxs5xn f1neuvcm fkjuxzh f1s6fcnf"
+              role="presentation"
+              tabindex="-1"
+              type="button"
+            >
+              Users
+            </button>
+          </th>
+          <th
+            class="fui-TableHeaderCell ___htb40z0_parmru0 f1nbblvp f1vdfbxk f1ov4xf1 f1f5gg8d fhix6mv fha7anx f1fmzww4 fs9qmxf f187m4uq f145mzao f1uha7eq f10pi13n f15pt5es fmrv4ls"
+          >
+            <button
+              class="fui-TableHeaderCell__button ___1jcvoz7_jqij8z0 fq6nmtn f1e4lqlz f1u2r49w f1ym3bx4 f1mo0ibp fjoy568 fytdu2e f1mtd64y f1y7q3j9 f1g0x7ka fhxju0i f1qch9an f1cnd47f f1ern45e f1n71otn f1h8hb77 f1deefiw f37px4s fgusgyc f10pi13n fly5x3f f22iagw fqerorx f1l02sjl f122n59 f1ufnopg f14sijuj f1nxs5xn f1neuvcm fkjuxzh f1s6fcnf"
+              role="presentation"
+              tabindex="-1"
+              type="button"
+            >
+              Answered
+            </button>
+          </th>
+          <th
+            class="fui-TableHeaderCell ___htb40z0_parmru0 f1nbblvp f1vdfbxk f1ov4xf1 f1f5gg8d fhix6mv fha7anx f1fmzww4 fs9qmxf f187m4uq f145mzao f1uha7eq f10pi13n f15pt5es fmrv4ls"
+          >
+            <button
+              class="fui-TableHeaderCell__button ___1jcvoz7_jqij8z0 fq6nmtn f1e4lqlz f1u2r49w f1ym3bx4 f1mo0ibp fjoy568 fytdu2e f1mtd64y f1y7q3j9 f1g0x7ka fhxju0i f1qch9an f1cnd47f f1ern45e f1n71otn f1h8hb77 f1deefiw f37px4s fgusgyc f10pi13n fly5x3f f22iagw fqerorx f1l02sjl f122n59 f1ufnopg f14sijuj f1nxs5xn f1neuvcm fkjuxzh f1s6fcnf"
+              role="presentation"
+              tabindex="-1"
+              type="button"
+            >
+              Created
+            </button>
+          </th>
+        </tr>
+      </thead>
+      <tbody
+        class="fui-TableBody ___1gw3ddd_19kkhse f1tp1avn"
+      >
+        <tr
+          class="fui-TableRow ___1ttuyxi_1ukckoj f19n0e5 f1ewtqcl f1jazu75 f1xeqee6 fz36nt7 f9znhxp fqrak0z f1o2ludy f1kjnpwc fxmnebo f1witrsb f1wfn5kd f1g4hkjv f15ngxrw fjbbrdp f1t94bn6 feu1g3u f1uorfem fw60kww f1vxd6vx fg706s2 frpde29 f1u0rzck f13cic75"
+        >
+          <td
+            class="fui-TableCell ___tcnysj0_68hc0k0 f1u2r49w f10pi13n f1nbblvp f1vdfbxk f1ov4xf1 f1f5gg8d fz36nt7 f9znhxp fqrak0z f1o2ludy f1kjnpwc fxmnebo f1witrsb f15pt5es fmrv4ls f1ft4266"
+          >
+            <div
+              class="fui-TableCellLayout ___1uk2feg_7csqwr0 f22iagw f122n59 fsnqrgy fylz90v fqerorx f1neuvcm fkjuxzh"
+            >
+              <span
+                class="fui-TableCellLayout__media ___mucme80_1ps9qjd f22iagw f122n59 fe5j1ua"
+              >
+                <span
+                  class="fui-Avatar r81b29z"
+                  id="avatar-r0"
+                  role="img"
+                >
+                  <img
+                    alt=""
+                    aria-hidden="true"
+                    class="fui-Avatar__image r136dc0n ___1d63l1f_wwkuc90 f11d4kpn f18f03hv"
+                    role="presentation"
+                    src="https://tylermcginnis.com/would-you-rather/sarah.jpg"
+                  />
+                </span>
+              </span>
+              <div
+                class="fui-TableCellLayout__content ___1ccp5kb_14c66jm f22iagw f1vx9l62"
+              >
+                <span
+                  class="fui-TableCellLayout__main"
+                >
+                  <div
+                    class="___1u8f3j2_0000000 f22iagw f1vx9l62 f1s9ku6b fo7dy5a fbjlher f1xwuru f1wtvaye"
+                  >
+                    <span
+                      class="fui-Subtitle2 fui-Text ___ut231u0_1ul1zvu fk6fouc fod5ikn faaz57k fl43uef fpgzoln f1w7gpdv f6juhto f1mtd64y f1y7q3j9 f2jf649"
+                    >
+                      Sarah Edo
+                    </span>
+                    <span
+                      class="fui-Caption1 fui-Text ___grx76c0_k6mk1f0 fk6fouc fy9rknc fwrc4pm figsok6 fpgzoln f1w7gpdv f6juhto f1mtd64y f1y7q3j9 f2jf649"
+                    >
+                      sarahedo
+                    </span>
+                  </div>
+                </span>
+              </div>
+            </div>
+          </td>
+          <td
+            class="fui-TableCell ___tcnysj0_68hc0k0 f1u2r49w f10pi13n f1nbblvp f1vdfbxk f1ov4xf1 f1f5gg8d fz36nt7 f9znhxp fqrak0z f1o2ludy f1kjnpwc fxmnebo f1witrsb f15pt5es fmrv4ls f1ft4266"
+          >
+            <div
+              class="fui-TableCellLayout ___1uk2feg_7csqwr0 f22iagw f122n59 fsnqrgy fylz90v fqerorx f1neuvcm fkjuxzh"
+            >
+              <div
+                class="fui-TableCellLayout__content ___1ccp5kb_14c66jm f22iagw f1vx9l62"
+              >
+                <span
+                  class="fui-TableCellLayout__main"
+                >
+                  <span
+                    class="fui-Caption1 fui-Text ___grx76c0_k6mk1f0 fk6fouc fy9rknc fwrc4pm figsok6 fpgzoln f1w7gpdv f6juhto f1mtd64y f1y7q3j9 f2jf649"
+                  >
+                    4
+                  </span>
+                </span>
+              </div>
+            </div>
+          </td>
+          <td
+            class="fui-TableCell ___tcnysj0_68hc0k0 f1u2r49w f10pi13n f1nbblvp f1vdfbxk f1ov4xf1 f1f5gg8d fz36nt7 f9znhxp fqrak0z f1o2ludy f1kjnpwc fxmnebo f1witrsb f15pt5es fmrv4ls f1ft4266"
+          >
+            <div
+              class="fui-TableCellLayout ___1uk2feg_7csqwr0 f22iagw f122n59 fsnqrgy fylz90v fqerorx f1neuvcm fkjuxzh"
+            >
+              <div
+                class="fui-TableCellLayout__content ___1ccp5kb_14c66jm f22iagw f1vx9l62"
+              >
+                <span
+                  class="fui-TableCellLayout__main"
+                >
+                  <span
+                    class="fui-Caption1 fui-Text ___grx76c0_k6mk1f0 fk6fouc fy9rknc fwrc4pm figsok6 fpgzoln f1w7gpdv f6juhto f1mtd64y f1y7q3j9 f2jf649"
+                  >
+                    2
+                  </span>
+                </span>
+              </div>
+            </div>
+          </td>
+        </tr>
+        <tr
+          class="fui-TableRow ___1ttuyxi_1ukckoj f19n0e5 f1ewtqcl f1jazu75 f1xeqee6 fz36nt7 f9znhxp fqrak0z f1o2ludy f1kjnpwc fxmnebo f1witrsb f1wfn5kd f1g4hkjv f15ngxrw fjbbrdp f1t94bn6 feu1g3u f1uorfem fw60kww f1vxd6vx fg706s2 frpde29 f1u0rzck f13cic75"
+        >
+          <td
+            class="fui-TableCell ___tcnysj0_68hc0k0 f1u2r49w f10pi13n f1nbblvp f1vdfbxk f1ov4xf1 f1f5gg8d fz36nt7 f9znhxp fqrak0z f1o2ludy f1kjnpwc fxmnebo f1witrsb f15pt5es fmrv4ls f1ft4266"
+          >
+            <div
+              class="fui-TableCellLayout ___1uk2feg_7csqwr0 f22iagw f122n59 fsnqrgy fylz90v fqerorx f1neuvcm fkjuxzh"
+            >
+              <span
+                class="fui-TableCellLayout__media ___mucme80_1ps9qjd f22iagw f122n59 fe5j1ua"
+              >
+                <span
+                  class="fui-Avatar r81b29z"
+                  id="avatar-r1"
+                  role="img"
+                >
+                  <img
+                    alt=""
+                    aria-hidden="true"
+                    class="fui-Avatar__image r136dc0n ___1d63l1f_wwkuc90 f11d4kpn f18f03hv"
+                    role="presentation"
+                    src="https://tylermcginnis.com/would-you-rather/tyler.jpg"
+                  />
+                </span>
+              </span>
+              <div
+                class="fui-TableCellLayout__content ___1ccp5kb_14c66jm f22iagw f1vx9l62"
+              >
+                <span
+                  class="fui-TableCellLayout__main"
+                >
+                  <div
+                    class="___1u8f3j2_0000000 f22iagw f1vx9l62 f1s9ku6b fo7dy5a fbjlher f1xwuru f1wtvaye"
+                  >
+                    <span
+                      class="fui-Subtitle2 fui-Text ___ut231u0_1ul1zvu fk6fouc fod5ikn faaz57k fl43uef fpgzoln f1w7gpdv f6juhto f1mtd64y f1y7q3j9 f2jf649"
+                    >
+                      Tyler McGinnis
+                    </span>
+                    <span
+                      class="fui-Caption1 fui-Text ___grx76c0_k6mk1f0 fk6fouc fy9rknc fwrc4pm figsok6 fpgzoln f1w7gpdv f6juhto f1mtd64y f1y7q3j9 f2jf649"
+                    >
+                      tylermcginnis
+                    </span>
+                  </div>
+                </span>
+              </div>
+            </div>
+          </td>
+          <td
+            class="fui-TableCell ___tcnysj0_68hc0k0 f1u2r49w f10pi13n f1nbblvp f1vdfbxk f1ov4xf1 f1f5gg8d fz36nt7 f9znhxp fqrak0z f1o2ludy f1kjnpwc fxmnebo f1witrsb f15pt5es fmrv4ls f1ft4266"
+          >
+            <div
+              class="fui-TableCellLayout ___1uk2feg_7csqwr0 f22iagw f122n59 fsnqrgy fylz90v fqerorx f1neuvcm fkjuxzh"
+            >
+              <div
+                class="fui-TableCellLayout__content ___1ccp5kb_14c66jm f22iagw f1vx9l62"
+              >
+                <span
+                  class="fui-TableCellLayout__main"
+                >
+                  <span
+                    class="fui-Caption1 fui-Text ___grx76c0_k6mk1f0 fk6fouc fy9rknc fwrc4pm figsok6 fpgzoln f1w7gpdv f6juhto f1mtd64y f1y7q3j9 f2jf649"
+                  >
+                    2
+                  </span>
+                </span>
+              </div>
+            </div>
+          </td>
+          <td
+            class="fui-TableCell ___tcnysj0_68hc0k0 f1u2r49w f10pi13n f1nbblvp f1vdfbxk f1ov4xf1 f1f5gg8d fz36nt7 f9znhxp fqrak0z f1o2ludy f1kjnpwc fxmnebo f1witrsb f15pt5es fmrv4ls f1ft4266"
+          >
+            <div
+              class="fui-TableCellLayout ___1uk2feg_7csqwr0 f22iagw f122n59 fsnqrgy fylz90v fqerorx f1neuvcm fkjuxzh"
+            >
+              <div
+                class="fui-TableCellLayout__content ___1ccp5kb_14c66jm f22iagw f1vx9l62"
+              >
+                <span
+                  class="fui-TableCellLayout__main"
+                >
+                  <span
+                    class="fui-Caption1 fui-Text ___grx76c0_k6mk1f0 fk6fouc fy9rknc fwrc4pm figsok6 fpgzoln f1w7gpdv f6juhto f1mtd64y f1y7q3j9 f2jf649"
+                  >
+                    2
+                  </span>
+                </span>
+              </div>
+            </div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

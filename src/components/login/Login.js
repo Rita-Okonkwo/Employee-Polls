@@ -13,7 +13,7 @@ const mapStatesToProps = ({userReducer}) => {
     } 
  }
 
-const Login = (props) => {
+export const LoginC = (props) => {
     const [selectedOption, setSelectedOption] = useState(undefined)
     const styles = useStyles()
     const navigate = useNavigate()
@@ -53,4 +53,4 @@ const Login = (props) => {
     )
 }
 
-export default connect(mapStatesToProps)(Login)
+export default connect(mapStatesToProps)(LoginC)
