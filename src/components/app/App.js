@@ -10,6 +10,7 @@ import  Leaderboard from "../leaderboard/Leaderboard";
 import  New  from "../new/New";
 import { Divider } from "@fluentui/react-components";
 import Nav from "../nav/Nav";
+import { FourZeroFour } from "../four-zero-four/FourZeroFour";
 
 const mapStatesToProps = ({userReducer, authReducer}) => {
   const user = userReducer[authReducer]
@@ -39,6 +40,7 @@ const App = (props) => {
           <Route path="/questions/:id" element={<QuestionPage/>}/>
           <Route path="/leaderboard" element={<Leaderboard/>}/>
           <Route path="/add" element={<New/>}/>
+          <Route path="*" element={<FourZeroFour/>}/>
         </Routes>
       </div>
     </>
